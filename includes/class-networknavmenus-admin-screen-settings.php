@@ -91,7 +91,7 @@ class NetworkNavMenus_Admin_Screen_Settings {
 		$network_menu_locations = nnm_get_network_nav_menu_locations();
 
 		$nav_menus = wp_get_nav_menus();
-		switch_to_blog( 1 );
+		switch_to_blog( 4 );
 		$network_nav_menus = wp_get_nav_menus();
 		restore_current_blog();
 
